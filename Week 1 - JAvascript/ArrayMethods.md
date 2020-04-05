@@ -8,9 +8,7 @@ I'm going to try explaining the 3 methods visually using emojis.
 
 [🥓, 🍟, 🍤, 🍿].map(origin) => [🐷, 🥔, 🦐, 🌽]
 
-Maps an array of elements through a function to a new value. Given some food e.g. bacon, fries, ebi tempura, popcorn, passing them through a function that determines their source yields us pork, potato, shrimp and corn.
-
-You get the point.
+Maps an array of elements through a function to a new value. Given some food e.g. bacon, fries, ebi tempura, popcorn, passing them through a function that maps them to their source gives us pork, potato, shrimp and corn. You get the point.
 
 ## Filter
 
