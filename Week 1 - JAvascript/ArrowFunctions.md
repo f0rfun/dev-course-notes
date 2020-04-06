@@ -41,7 +41,7 @@ or keep a top-level reference e.g. **_that = this_** to get the right **_this_**
 
 ```
 function Grab (FoodService) {
-  const that = this; //top level reference
+  let that = this; //top level reference
   that.driver = 'Hello';
   FoodService
   .doSomething(function (response) {
